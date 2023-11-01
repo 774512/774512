@@ -61,7 +61,7 @@
 ![image](https://github.com/774512/774512/assets/148979339/a0eb5ba1-8835-4ff0-9fa0-101ebaaf41da)
 
 结果分析：
-    - 我们可以发现父进程与子进程输出的my_int的值是不一样的并且输出各自的pid1+my_int(此处的my_int是父子进程各自进行一定操作后的my_int)
+  - 我们可以发现父进程与子进程输出的my_int的值是不一样的并且输出各自的pid1+my_int(此处的my_int是父子进程各自进行一定操作后的my_int)
 ### 修改程序体会在子进程中调用 system 函数和在子进程中调用 exec 族函数
 代码修改
 
